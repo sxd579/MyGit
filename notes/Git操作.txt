@@ -1,0 +1,49 @@
+git config --list可以查看配置列表 
+mkdir name(文件夹)
+$ git config --global user.name "your name"
+$ git config --global user.email "your_email@youremail.com"  设置名字 邮箱
+
+每次添加和修改  都要 add  和 commit  
+
+
+后退操作cirl +c
+git add 文件名
+git commit -m""
+
+git status 查状态
+git diff 文件名 读文件
+git log 查操作日志 最近三次
+git  reset --hard 版本号  回到某个版本号
+git reset --hardHARD^上一个版本
+git reset --hardHARD^^上两个版本
+git reset --hardHARD~x  上x个版本
+git reflog   获取到之前操作的版本号
+git checkout -- 文件名  撤销该文件在工作区  即未add之前的所有操作
+rm +文件名   删除文件（没有commit之前都可以恢复     ：git checkout -- 文件名  撤销该文件在工作区  即未add之前的所有操作）
+
+git branch  查询分支
+git check -b 名字    创建并且切换到相应的分支
+git branch 名字  创建到相应分支
+git checkout 名字 切换相应的分支
+git branch -d  名字 删除掉相应的分支 需要在merge之后才删除
+
+
+
+git checkout -b 名字 origin/名字   创建远程origin 端的xx分支
+git push origin xx   推送该分支过去
+git  pull 抓取下来  会说需要修改以后再push 则cat出文件修改  提交add  再push
+
+
+git remote add origin https://github.com/sxd579/testGit    .git    （gitHub的数据库的地址.git）
+git remote rm origin 
+git push _-u origin master 把本地仓库master内容推送到元仓库去
+从第一次之后 都可以用 git push origin master
+git merge 分支名  当前分支合并相应分支
+两边同一个文件都修改不同时候，合起来会显示特别的冲突代码
+
+远程库克隆   git clone https://github.com/sxd579/Hello-World  即对应git库的网址即可 不需要+.git
+
+cat +文件名 查看文件
+
+
+////其他操作在https://www.zhihu.com/question/41667536/answer/486640083 底部
