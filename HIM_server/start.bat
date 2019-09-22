@@ -1,0 +1,1 @@
+java -jar HIM_server.jar test
