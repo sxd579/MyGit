@@ -1,0 +1,31 @@
+<scroll-view>
+<view class="content">
+            <view class="question"  wx:for="{{questions}}" wx:key = "id">
+            <text>{{item.id}}.{{item.content}}</text>
+                      <view class="option">
+                                      <view class="item" bindtap="selectA" data-index="{{item.id-1}}"   >
+                                      <icon type="{{item.A?'success':'circle'}}" size="16" ></icon>
+                                      <text>厨余垃圾</text>
+                                      </view>
+                                      <view class="item" bindtap="selectB" data-index="{{item.id-1}}" >
+                                      <icon type="{{item.B?'success':'circle'}}" size="16" ></icon>
+                                      <text>可回收物</text>
+                                      </view>
+                                      <view class="item"bindtap="selectC" data-index="{{item.id-1}}" >
+                                      <icon type="{{item.C?'success':'circle'}}" size="16" ></icon>
+                                      <text>有害垃圾</text>
+                                      </view>
+                                      <view class="item" bindtap="selectD" data-index="{{item.id-1}}" >
+                                      <icon type="{{item.D?'success':'circle'}}" size="16" ></icon>
+                                      <text>其他垃圾</text>
+                                      </view>
+                      </view>
+                      <view hidden="{{!isSubmit}}" class="answer">答案为:  {{item.answer}}</view>
+            </view>
+            
+
+
+ </view>  
+
+ <button type="primary" style="width:50%" bindtap="submit">提交</button>      
+</scroll-view>

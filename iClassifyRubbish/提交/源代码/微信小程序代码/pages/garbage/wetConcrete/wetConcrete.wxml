@@ -1,0 +1,63 @@
+<!--pages/garbage/collectedConcrete/collectedConcrete.wxml-->
+<view class="cu-timeline">
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">湿垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">食材废料：谷物及其加工食品（米、米饭、面、面包、豆类）、肉蛋及其加工食品（鸡、鸭、猪、牛、羊肉、蛋、动物内脏、腊肉、午餐肉、蛋壳）、水产及其加工食品（鱼、鱼鳞、虾、虾壳、鱿鱼）、蔬菜（绿叶菜、根茎蔬菜、菌菇）、调料、酱料……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">湿垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">剩菜剩饭：火锅汤底（沥干后的固体废弃物）、鱼骨、碎骨、茶叶渣、咖啡渣……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">湿垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">过期食品：糕饼、糖果、风干食品（肉干、红枣、中药材）、粉末类食品（冲泡饮料、面粉）、宠物饲料……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">湿垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">瓜皮果核：水果果肉（椰子肉）、水果果皮（西瓜皮、桔子皮、苹果皮）、水果茎枝（葡萄枝）、果实（西瓜籽）……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">湿垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">花卉植物：家养绿植、花卉、花瓣、枝叶……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">湿垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">其它：中药药渣……</view>
+    </view>
+  </view>
+
+</view>

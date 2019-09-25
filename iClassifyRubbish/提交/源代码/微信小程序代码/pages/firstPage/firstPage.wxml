@@ -1,0 +1,11 @@
+<!--pages/firstPage/firstPage.wxml-->
+<view class="padding flex flex-direction">
+  <button class="cu-btn bg-red margin-tb-sm lg" bindtap="goTakePhoto">拍照识别</button>
+  
+</view>
+<view class="cu-bar bg-white">
+    <view class="action">
+      <text class="icon-titles text-green"></text>
+      <text class="text-xl text-bold"  bindtap="getLocalImage">从相册选择</text>
+    </view>
+</view>

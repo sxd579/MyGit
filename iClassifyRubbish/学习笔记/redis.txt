@@ -1,0 +1,12 @@
+cmd进入命令操作窗口
+
+server 在一个cmd登入，再开一个cmd登入redis-cli
+ping  进入
+keys *  查看键值对
+get session:eyJ1c2VyIjoic3hkIn0.XXnmgA.u4X35BVojlnHAJmgogMtogiyM5s
+得到信息
+tll session:eyJ1c2VyIjoic3hkIn0.XXnmgA.u4X35BVojlnHAJmgogMtogiyM5s
+有效 一个月  31天
+https://www.cnblogs.com/liyanbofly/p/7766707.html
+
+ 

@@ -1,0 +1,51 @@
+{
+  "pages": [
+    "pages/firstPage/firstPage",
+    "pages/mesPage/mesPage",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/test/test",
+    "pages/garbage/collected/collected",
+    "pages/garbage/wet/wet",
+    "pages/garbage/dry/dry",
+    "pages/garbage/harmful/harmful",
+    "pages/garbage/collectedConcrete/collectedConcrete",
+    "pages/garbage/dryConcrete/dryConcrete",
+    "pages/garbage/harmfulConcrete/harmfulConcrete",
+    "pages/garbage/wetConcrete/wetConcrete",
+    "pages/camera/camera",
+    "pages/exam/exam"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/firstPage/firstPage",
+        "text": "拍照识别",
+        "selectedIconPath": "images/拍照黑.png",
+        "iconPath": "images/拍照.png"
+      },
+      {
+        "pagePath": "pages/mesPage/mesPage",
+        "text": "分类小知识",
+        "selectedIconPath": "images/垃圾黑.png",
+        "iconPath": "images/垃圾.png"
+      },
+      {
+        "pagePath": "pages/test/test",
+        "text": "测一测",
+        "selectedIconPath": "images/答题黑.png",
+        "iconPath": "images/答题.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "cu-custom": "/colorui/components/cu-custom"
+  },
+  "sitemapLocation": "sitemap.json"
+}

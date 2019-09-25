@@ -1,0 +1,83 @@
+<!--pages/garbage/collectedConcrete/collectedConcrete.wxml-->
+<view class="cu-timeline">
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废镍镉电池和废氧化汞电池：充电电池、镉镍电池、铅酸电池、蓄电池、纽扣电池</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废荧光灯管：荧光（日光）灯管、卤素灯</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废药品及其包装物：过期药物、药物胶囊、药片、药品内包装</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废油漆和溶剂及其包装物：废油漆桶、染发剂壳、过期的指甲油、洗甲水</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废矿物油及其包装物</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废含汞温度计、废含汞血压计：水银血压计、水银体温计、水银温度计</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废杀虫剂及其包装：老鼠药（毒鼠强）、杀虫喷雾罐</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">有害垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废胶片及废相纸：x光片等感光胶片、相片底片</view>
+    </view>
+  </view>
+
+</view>

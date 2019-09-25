@@ -1,0 +1,6 @@
+已经上传到 服务器ip：47.97.216.231
+密码qrds2019!
+
+用xshell 连接服务器后
+cd /var/test/进入项目目录
+python manager.py runserver 开启服务器

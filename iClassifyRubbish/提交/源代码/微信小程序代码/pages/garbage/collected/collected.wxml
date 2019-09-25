@@ -1,0 +1,18 @@
+<!--pages/garbage/collected/collected.wxml-->
+<view class="cu-card case {{isCard?'no-card':''}}">
+  <view class="cu-item shadow">
+    <view class="image">
+      <image src="http://47.97.216.231:5000/images/可回收物说明.jpeg" mode="widthFix" bindtap="toConcretePage"></image>
+      <view class="cu-tag bg-blue">可回收物</view>
+    </view>
+    <view class="cu-list menu-avatar" bindtap="toConcretePage">
+      <view class="cu-item">
+        <view class="cu-avatar round lg" style="background-image:url(http://47.97.216.231:5000/images/可回收物图标.png);"></view>
+        <view class="content flex-sub">
+          <view class="text-grey">可回收物</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>
+

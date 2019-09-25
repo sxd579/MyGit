@@ -1,0 +1,42 @@
+
+.content{
+    border-top: 1rpx solid #e0e0e0;
+}
+.content .question{ 
+  margin-top: 50rpx;
+  margin-left: 20rpx;
+  width: 95%;
+  border: 1rpx solid #e0e0e0;
+}
+.question text{
+  font-size: 60rpx;
+  margin-left: 20rpx;
+}
+.option{
+  margin:20rpx;
+  border: 1rpx solid #e0e0e0;
+  border-radius: 5rpx;
+  box-shadow: 0 0 5rpx #e0e0e0
+}
+.option .item{
+  align-items: center;
+  display: flex;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #e0e0e0;
+}
+
+.option .item:last-child{
+  padding: 20rpx;
+  border-bottom:0;
+}
+.option .item text{
+  flex: 1;
+  margin-left: 30rpx;
+  font-size:30rpx;
+  color: #888;
+}
+.answer{
+  margin: 40rpx;
+  font-size:30rpx;
+  color: #888;
+}

@@ -1,0 +1,12 @@
+<view class="root">
+      <view class="content">
+      <camera  flash="off" binderror="error" class="cm" device-position="back"> </camera>
+      </view>
+
+     
+
+      <view class="take">
+        <button  class= "item" type="primary" bindtap="takePhoto">拍照识别</button>
+      </view>
+      
+</view>

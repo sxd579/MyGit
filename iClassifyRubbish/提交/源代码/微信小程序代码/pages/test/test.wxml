@@ -1,0 +1,5 @@
+<view class="back">
+
+<button class="test" bindtap="goTakeExam">测一测</button>
+
+</view>

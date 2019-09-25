@@ -1,0 +1,3 @@
+https://blog.csdn.net/m0_38025747/article/details/80602651
+服务器静态资源访问配置
+修改server 要在http内，切不能用被占用的端口

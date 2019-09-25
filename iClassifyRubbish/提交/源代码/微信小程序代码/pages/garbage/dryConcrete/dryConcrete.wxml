@@ -1,0 +1,63 @@
+<!--pages/garbage/collectedConcrete/collectedConcrete.wxml-->
+<view class="cu-timeline">
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">干垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">餐巾纸、卫生间用纸、尿不湿、猫砂、狗尿垫、污损纸张、烟蒂、干燥剂</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">干垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">污损塑料、尼龙制品、编织袋、防碎气泡膜</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">干垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">大骨头、硬贝壳、硬果壳（椰子壳、榴莲壳、核桃壳、玉米衣、甘蔗皮）、硬果实（榴莲核、菠萝蜜核）</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">干垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">毛发、灰土、炉渣、橡皮泥、太空沙、带胶制品（胶水、胶带）、花盆、毛巾</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">干垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">一次性餐具、镜子、陶瓷制品、竹制品（竹篮、竹筷、牙签）</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">干垃圾</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">成分复杂的制品（伞、笔、眼镜、打火机）……</view>
+    </view>
+  </view>
+
+</view>

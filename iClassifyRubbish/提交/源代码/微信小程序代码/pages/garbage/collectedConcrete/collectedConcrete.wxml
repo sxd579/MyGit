@@ -1,0 +1,63 @@
+<!--pages/garbage/collectedConcrete/collectedConcrete.wxml-->
+<view class="cu-timeline">
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">可回收物</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废纸张：纸板箱、报纸、废弃书本、快递纸袋、打印纸、信封、广告单、纸塑铝复合包装（利乐包）……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">可回收物</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废塑料：食品与日用品塑料瓶罐及瓶盖（饮料瓶、奶瓶、洗发水瓶、乳液罐）、食用油桶、塑料碗（盆）、塑料盒子（食品保鲜盒、收纳盒）、塑料玩具（塑料积木、塑料模型）、塑料衣架、施工安全帽、PE塑料、pvc、亚克力板、塑料卡片、密胺餐具、kt板、泡沫（泡沫塑料、水果网套）……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">可回收物</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废玻璃制品：食品及日用品玻璃瓶罐（调料瓶、酒瓶、化妆品瓶）、玻璃杯、窗玻璃、玻璃制品（放大镜、玻璃摆件）、碎玻璃……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">可回收物</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废金属：金属瓶罐（易拉罐、食品罐/桶）、金属厨具（菜刀、锅）、金属工具（刀片、指甲剪、螺丝刀）、金属制品（铁钉、铁皮、铝箔）……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">可回收物</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">废织物：旧衣服、床单、枕头、棉被、皮鞋、毛绒玩具（布偶）、棉袄、包、皮带、丝绸制品……</view>
+    </view>
+  </view>
+
+  <view class="cu-item">
+    <view class="content">
+      <view class="cu-capsule radius">
+        <view class="cu-tag bg-cyan">可回收物</view>
+        <view class="cu-tag line-cyan">实物例举</view>
+      </view>
+      <view class="margin-top">其它：电路板（主板、内存条）、充电宝、电线、插头、木制品（积木、砧板）……</view>
+    </view>
+  </view>
+
+</view>

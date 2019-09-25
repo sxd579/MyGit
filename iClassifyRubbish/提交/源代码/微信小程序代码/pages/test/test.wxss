@@ -1,0 +1,19 @@
+page{
+  height: 100%;
+}
+.back{
+  width: 100%;
+  height: 100%;
+  background-color: #FFFACD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.back .test{
+     width: 250rpx;
+     height:100rpx;
+     background-color: white;
+     border-color: red;
+ 
+}
