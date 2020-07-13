@@ -1,0 +1,51 @@
+{
+  "id": "1893801",
+  "name": "c2capp",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "633010",
+      "name": "手机",
+      "font_class": "shouji2",
+      "unicode": "e61b",
+      "unicode_decimal": 58907
+    },
+    {
+      "icon_id": "1134326",
+      "name": "密码_sel",
+      "font_class": "mimasel",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "14445542",
+      "name": "密码",
+      "font_class": "mima",
+      "unicode": "e755",
+      "unicode_decimal": 59221
+    },
+    {
+      "icon_id": "1270585",
+      "name": "手机",
+      "font_class": "shouji",
+      "unicode": "e63d",
+      "unicode_decimal": 58941
+    },
+    {
+      "icon_id": "3187286",
+      "name": "手机",
+      "font_class": "shouji1",
+      "unicode": "e613",
+      "unicode_decimal": 58899
+    },
+    {
+      "icon_id": "14055582",
+      "name": "微信",
+      "font_class": "weixin",
+      "unicode": "e61a",
+      "unicode_decimal": 58906
+    }
+  ]
+}
