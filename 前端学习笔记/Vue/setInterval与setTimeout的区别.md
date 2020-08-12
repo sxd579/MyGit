@@ -1,0 +1,1 @@
+## setInterval与setTimeout的区别
