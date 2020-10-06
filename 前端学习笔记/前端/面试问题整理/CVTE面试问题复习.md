@@ -94,6 +94,25 @@ console.log(new C().a);
 
 splice(start,length,items)  该方法向或者从数组中添加或者删除项目，返回被删除的项目，改变原数组，items可选的替换
 
+**拓展**
+
+​    **改变原数组的：**
+
+1. **shift：将第一个元素删除并且返回删除元素，空即为undefined**
+2. **unshift：向数组开头添加元素，并返回新的长度**
+3. **pop：删除最后一个并返回删除的元素**
+4. **push：向数组末尾添加元素，并返回新的长度**
+5. **reverse：颠倒数组顺序**
+6. **sort：对数组排序**
+7. **splice:splice(start,length,item)删，增，替换数组元素，返回被删除数组，无删除则不返回**
+
+**不改变原数组的：**
+
+1. **concat：连接多个数组，返回新的数组**
+2. **join：将数组中所有元素以参数作为分隔符放入一个字符**
+3. **slice：slice(start,end)，返回选定元素**
+4. **map,filter,forEach,some,every等不改变原数组**
+
 6.flex:auto  
 
 ​      会使得盒子的宽度由盒子内容决定，要想使得宽度一致，并且当主轴方向存在剩余空间就统一扩大，空间不足则缩小，应该改变其值为：
@@ -148,7 +167,7 @@ AJAX：
 
 - 分为两种请求
 
-- 简单请求v
+- 简单请求
 
   就是**在Header中增加一个`Origin`字段**。如果浏览器发现跨源AJAX请求是简单请求，就自动在头信息之中，添加一个`Origin`字段。
 
@@ -172,7 +191,7 @@ AJAX：
 
 - ​    setInterval    宏队列  还有I/O       UI rendering和requesxtAnimationFrame 这两个是浏览器独有的
 
-- ​    process.NextTick   微队列  Node独有  还有Promise 和observe
+- ​    process.NextTick   微队列  Node独有  还有Promise的回调函数，new Promise中运行的函数属于同步代码， 和observe
 
 - ​    setTimeout        宏队列
 

@@ -167,7 +167,7 @@ new Vue({
     }
     ```
 
-- 触发mutations方式二
+- 触发mutations方式二 映射为组件中methos中的一个函数
 
   - 引入mapMutations函数
 
@@ -206,3 +206,90 @@ new Vue({
   用于处理异步任务
 
   如果通过异步操作变更数据，必须通过Action，而不能使用mutation，但是在Action中还是要通过触发Mutation的方式间接变更数据
+
+  ```
+  actions:{
+        addAsync(context){
+          setTimeout(()=>{
+            //在Actions中，不能直接修改state中的数据
+            //必须通过 context.commit() 触发某个mutation才行
+            context.commit('add');
+          },1000)
+        }
+    }
+  ```
+
+  触发方式，通过this.$store.dispatch(''action函数名')
+
+  ```
+      hander_addAsync(){
+                  this.$store.dispatch('addAsync');
+              }
+  ```
+
+  ```
+  只有mutations中的函数才有权力修改state中的数据
+  ```
+
+  传参方式
+
+  ```
+  addAsyncN(context,step){
+          setTimeout(()=>{
+            context.commit('addN',step);
+          },1000)
+        }
+  ```
+
+  ```
+   hander_addAsyncN(){
+                  this.$store.dispatch('addAsyncN',3);
+              },
+  ```
+
+- 另一种方式映射为组件methods中的一个函数
+
+  ```
+  import {{mapActions}} from 'vuex';
+  methods:{
+       ...mapActions(['f1Async','f2Async']);
+       xxx(){
+          this.f1Async();
+       },
+       yyy(){
+          this.f2Async(args);
+       },
+  }
+  ```
+
+- Getter
+
+  用于对Store中的数据进行加工处理形成新的数据
+
+  - Getter对于Store中已有的数据加工处理以后形成新的数据，类似Vue的计算属性computed
+
+  - Store中数据发生变化，Getter的数据也会跟着变化
+
+  - 不会修改state中的数据，只会将其包装输出
+
+  - 使用方式
+
+    - this.$store.getters
+
+    - import {{mapGetters}} from 'vuex'; ,映射为计算属性
+
+      ```
+       computed:{
+                  ...mapGetters(['showNum'])
+              },
+              
+              <h3>{{showNum}}</h3>
+      ```
+
+- 组件中v-model=“XXX”,XXX时state里面的变量
+
+  vuex是单向流，v-model是双向流
+
+  vuex已经完成视图对数据响应，实现双向绑定需要完成数据对视图的响应，
+
+  即通过绑定事件，在里面通过mutations中的函数对数据进行修改
